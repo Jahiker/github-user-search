@@ -10,8 +10,7 @@ export default function Search({ inputUser, setInputUser }) {
   };
 
   const onSearchValueChange = (event) => {
-    const inputValue = event.target.value;
-    setValueInput(inputValue);
+    setValueInput(event.target.value);
   };
 
   return (
